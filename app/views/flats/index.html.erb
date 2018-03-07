@@ -1,6 +1,14 @@
+<div class="navbar">
+<div class="container">
+
 <% @flats.each do |flat| %>
-<%= flat.name %>
-<%= flat.address %>
-<%= flat.number_of_guests %>
-<%= flat.price_per_night %>
+  <div class="row">
+    <%= flat.name %>
+    <%= flat.address %>
+    <%= flat.number_of_guests %>
+    <%= flat.price_per_night %>
+  </div>
 <% end %>
+
+</div>
+</div>
